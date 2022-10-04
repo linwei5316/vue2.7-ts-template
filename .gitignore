@@ -1,0 +1,9 @@
+# Mac OS X
+.DS_Store
+
+# JetBrains IDE
+.idea
+
+node_modules
+
+dist

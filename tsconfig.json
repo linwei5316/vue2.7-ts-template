@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"outDir": "./dist/",
+		"sourceMap": true,
+		"strict": true,
+		"noImplicitReturns": true,
+		"noImplicitAny": true,
+		"module": "es6",
+		"moduleResolution": "node",
+		"target": "es5",
+		"allowJs": true,
+		"resolveJsonModule": true,
+		"allowSyntheticDefaultImports": true,
+		"paths": {
+			"@/*": ["src/*"],
+			"@": ["src/"]
+		},
+		"types": [
+			"node",
+		]
+	},
+	"include": [
+		"src/**/*.ts",
+		"src/**/*.js",
+		"src/**/*.vue"
+	],
+	"exclude": [
+		"./node_modules",
+	]
+}
